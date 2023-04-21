@@ -1,0 +1,33 @@
+{
+    "extends": [
+        "@antfu",
+        "@unocss"
+    ],
+    "ignorePatterns": [
+        ".github",
+        ".netlify",
+        ".nuxt",
+        ".output",
+        ".lighthouse",
+        "node_modules"
+    ],
+    "rules": {
+        "antfu/top-level-function": "warn",
+        "vue/define-macros-order": "warn",
+        "vue/custom-event-name-casing": [
+            "error",
+            "kebab-case"
+        ],
+        "vue/max-attributes-per-line": [
+            "error",
+            {
+                "singleline": {
+                    "max": 1
+                },
+                "multiline": {
+                    "max": 1
+                }
+            }
+        ]
+    }
+}
