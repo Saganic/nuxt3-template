@@ -1,6 +1,8 @@
 # Nuxt 3 template
-----------
+[![Techs](https://skillicons.dev/icons?i=nuxt,tailwind,nodejs,ts)](https://github.com/saganic/nuxt3-template)
 
+----------
+## What is this?
 A Nuxt 3 application template to get started quickly with sites. SEO support, Tailwind (UnoCSS) + HeadlessUI, Gtag, Nuxt/Image, Unlighthouse.
 
 ### 🔐 Core
